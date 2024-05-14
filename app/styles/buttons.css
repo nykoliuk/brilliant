@@ -1,0 +1,54 @@
+.btn {
+	align-items: center;
+	display: flex;
+	height: 40px;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 0 24px;
+	position: relative;
+	white-space: nowrap;
+
+	@media (min-width: 1200px) {
+		height: 56px;
+		font-size: 18px;
+		padding: 0 32px;
+	}
+
+	&:not(.btn-secondary):hover {
+		@apply bg-gradient;
+		background-clip: text;
+		color: transparent;
+	}
+}
+
+.btn-secondary {
+	border-radius: 40px;
+	backdrop-filter: blur(10px);
+
+	&:hover {
+		@apply bg-gradient;
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		inset: 0;
+		border-radius: 40px;
+		border: 2px solid transparent;
+		background: linear-gradient(106.2deg, #963488 -12.33%, #FC6F32 50.28%, #FF4A59 114.17%) border-box;
+		mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+		mask-composite: exclude;
+	}
+}
+
+.btn-large {
+	height: 56px;
+	font-size: 16px;
+	padding: 0 32px;
+
+	@media (min-width: 1200px) {
+		height: 75px;
+		font-size: 24px;
+		padding: 0 48px;
+	}
+}

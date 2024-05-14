@@ -1,0 +1,17 @@
+{
+	"trailingComma": "es5",
+	"tabWidth": 4,
+	"printWidth": 140,
+	"useTabs": true,
+	"semi": true,
+	"singleQuote": true,
+	"formatOnSave": true,
+	"bracketSpacing": false,
+	"arrowParens": "avoid",
+	"no-multiple-empty-lines": [
+		"error",
+		{
+			"max": 2
+		}
+	]
+}

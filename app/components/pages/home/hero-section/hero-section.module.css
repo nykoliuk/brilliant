@@ -1,0 +1,16 @@
+.content {
+	max-width: 1629px;
+}
+
+.title {
+	background: linear-gradient(108.88deg, #B53EA4 -2.82%, #FC6F32 34.48%, #FF4A59 93.08%);
+	background-clip: text;
+	color: transparent;
+	position: relative;
+
+	&:global(.animated) {
+		background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+		linear-gradient(106.2deg, #FFD6F9 -12.33%, #FFCBB4 50.28%, #FFBEC3 114.17%);
+		background-clip: text;
+	}
+}

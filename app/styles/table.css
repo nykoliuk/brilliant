@@ -1,0 +1,31 @@
+td,
+th {
+	@apply px-1.5;
+
+	&:first-child {
+		@apply pl-6;
+	}
+
+	&:last-child {
+		@apply pr-6;
+	}
+}
+
+th {
+	@apply text-gray font-semibold text-left py-5;
+}
+
+td {
+	@apply py-6;
+}
+
+.table-striped {
+	> tbody > tr:nth-of-type(odd) > * {
+		background: #C9D9FF14;
+	}
+}
+
+.table-responsive {
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}

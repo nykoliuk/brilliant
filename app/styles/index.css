@@ -1,0 +1,10 @@
+@import 'tailwind.css';
+@import 'buttons.css';
+@import 'table.css';
+@import 'typography.css';
+
+body {
+	background: #000;
+	color: #fff;
+	/*background: linear-gradient(180deg, #000000 36.4%, #191E2A 100%);*/
+}
